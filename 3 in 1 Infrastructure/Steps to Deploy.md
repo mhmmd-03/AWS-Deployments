@@ -19,7 +19,7 @@ This deployment should include VPC with 2 Public & 3 Private subnets (Web server
 
 4. Create a separate Security Group (SG) for ELB and ASG to allow web traffic from ELB only.
 
-5. Web servers should be accessible via Bastion host only.
+5. Web servers should be accessible via Jump Server only.
 
 6. Create MySQL RDS which should be accessible via web servers using a client. 
 
@@ -31,5 +31,7 @@ This deployment should include VPC with 2 Public & 3 Private subnets (Web server
 
 *Note: Steps will 100% seem confusing but take a look at the following diagram for better understanding of the deployment*
 
-[AWS 3in1 Deployment Diagram.pdf](https://github.com/mhmmd-03/AWS-Deployments/files/9543429/AWS.3in1.Final.project.V1.0.pdf)
+![image](https://user-images.githubusercontent.com/103689781/189547218-c9203616-bff1-429c-9796-39f6d9de16b1.png)
+
+
 
